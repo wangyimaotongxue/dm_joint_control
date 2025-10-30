@@ -1,0 +1,5 @@
+/home/stick/dm_joint_control/u2can/build/CMakeFiles/dm_motor_position.dir
+/home/stick/dm_joint_control/u2can/build/CMakeFiles/dm_set_zero_position.dir
+/home/stick/dm_joint_control/u2can/build/CMakeFiles/test_damiao.dir
+/home/stick/dm_joint_control/u2can/build/CMakeFiles/edit_cache.dir
+/home/stick/dm_joint_control/u2can/build/CMakeFiles/rebuild_cache.dir

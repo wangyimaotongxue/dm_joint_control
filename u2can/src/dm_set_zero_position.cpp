@@ -11,7 +11,7 @@ damiao::Motor_Control dm(serial);
 
 int main(int argc, char  *argv[])
 {
-  serial = std::make_shared<SerialPort>("/dev/ttyACM*", B921600);
+  serial = std::make_shared<SerialPort>("/dev/ttyACM0", B921600);
   dm = damiao::Motor_Control(serial);
 
   dm.addMotor(&M1);
@@ -20,9 +20,19 @@ int main(int argc, char  *argv[])
   // dm.disable(M2);
   sleep(1);
   if(dm.switchControlMode(M1,damiao::MIT_MODE))     //使用MIT模式控制
-    std::cout << "Switch to VEL_MODE Success" << std::endl;
-  dm.save_motor_param(M1);
+    std::cout << "Switch to MIT_MODE Success" << std::endl;
 
+  // 设置电机零点
+  dm.set_zero_position(M1);
+  std::cout << "The zero point position is being seting" << std::endl;
+  sleep(3);
+
+  // 保存电机设置
+  dm.save_motor_param(M1);
+  std::cout << "The zero point position is being saveing" << std::endl;
+  sleep(2);
+  
+  dm.save_motor_param(M1);
   // dm.save_motor_param(M2);
   // dm.enable(M1);
   // dm.enable(M2);
@@ -39,11 +49,9 @@ int main(int argc, char  *argv[])
     std::cout<<"motor1--- POS:"<<M1.Get_Position()<<" VEL:"<<M1.Get_Velocity()<<" CUR:"<<M1.Get_tau()<<std::endl;
     // std::cout<<"motor2--- POS:"<<M2.Get_Position()<<" VEL:"<<M2.Get_Velocity()<<" CUR:"<<M2.Get_tau()<<std::endl;
     usleep(1000);
-    std::cout<<"motor1 pos:"<<M1.Get_Position()<<std::endl;
+    // std::cout<<"motor1 pos:"<<M1.Get_Position()<<std::endl;
     
   }   
-
-
 
   return 0;
 }

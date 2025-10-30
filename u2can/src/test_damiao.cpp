@@ -19,9 +19,8 @@ int main(int argc, char  *argv[])
   dm.disable(M1);
   // dm.disable(M2);
   sleep(1);
-  if(dm.switchControlMode(M1,damiao::VEL_MODE))   // 使用速度模式控制
+  if(dm.switchControlMode(M1,damiao::VEL_MODE))
     std::cout << "Switch to VEL_MODE Success" << std::endl;
-
   // if(dm.switchControlMode(M1, damiao::MIT_MODE))
   //   std::cout << "Switch to MIT Success" << std::endl;
   // if(dm.switchControlMode(M2, damiao::POS_VEL_MODE))
@@ -39,21 +38,11 @@ int main(int argc, char  *argv[])
   // if(dm.change_motor_param(M1,damiao::CTRL_MODE,1))
   //   std::cout << "Change CTRL_MODE Success" << std::endl;
   // std::cout<<"motor1 CTRL_MODE:"<<dm.read_motor_param(M1, damiao::CTRL_MODE)<<std::endl;
-    
-  // 设置电机零点
-  dm.set_zero_position(M1);
-  std::cout << "The zero point position is being seting" << std::endl;
-  sleep(3);
-
-  // 保存电机设置
   dm.save_motor_param(M1);
-  std::cout << "The zero point position is being saveing" << std::endl;
-  sleep(2);
   // dm.save_motor_param(M2);
   // dm.enable(M1);
   // dm.enable(M2);
-
-  // sleep(1);
+  sleep(1);
   while(1)
   {
     float q = sin(std::chrono::system_clock::now().time_since_epoch().count() / 1e9);
