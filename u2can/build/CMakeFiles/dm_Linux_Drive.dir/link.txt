@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/dm_Linux_Drive.dir/src/test_damiao.cpp.o -o dm_Linux_Drive 

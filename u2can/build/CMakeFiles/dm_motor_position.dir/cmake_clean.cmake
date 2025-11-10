@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
   "CMakeFiles/dm_motor_position.dir/src/dm_motor_position.cpp.o"
-  "CMakeFiles/dm_motor_position.dir/src/dm_motor_position.cpp.o.d"
   "dm_motor_position"
   "dm_motor_position.pdb"
 )

@@ -1,1 +1,1 @@
-/usr/bin/c++ CMakeFiles/dm_motor_position.dir/src/dm_motor_position.cpp.o -o dm_motor_position 
+/usr/bin/c++     CMakeFiles/dm_motor_position.dir/src/dm_motor_position.cpp.o  -o dm_motor_position 

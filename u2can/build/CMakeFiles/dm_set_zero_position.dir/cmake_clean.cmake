@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
   "CMakeFiles/dm_set_zero_position.dir/src/dm_set_zero_position.cpp.o"
-  "CMakeFiles/dm_set_zero_position.dir/src/dm_set_zero_position.cpp.o.d"
   "dm_set_zero_position"
   "dm_set_zero_position.pdb"
 )
