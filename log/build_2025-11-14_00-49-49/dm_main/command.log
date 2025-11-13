@@ -1,0 +1,1 @@
+Invoking command in '/home/stick/dm_joint_control/build/dm_main': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/stick/dm_joint_control/src/DM_USB_to_canfd -DCMAKE_INSTALL_PREFIX=/home/stick/dm_joint_control/install/dm_main

@@ -1,0 +1,13 @@
+[0.006s] Invoking command in '/home/stick/dm_joint_control/build/dm_Linux_Drive': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/stick/dm_joint_control/src/u2can -DCMAKE_INSTALL_PREFIX=/home/stick/dm_joint_control/install/dm_Linux_Drive
+[0.012s] -- Configuring done
+[0.013s] -- Generating done
+[0.014s] -- Build files have been written to: /home/stick/dm_joint_control/build/dm_Linux_Drive
+[0.015s] Invoked command in '/home/stick/dm_joint_control/build/dm_Linux_Drive' returned '0': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/stick/dm_joint_control/src/u2can -DCMAKE_INSTALL_PREFIX=/home/stick/dm_joint_control/install/dm_Linux_Drive
+[0.016s] Invoking command in '/home/stick/dm_joint_control/build/dm_Linux_Drive': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/stick/dm_joint_control/build/dm_Linux_Drive -- -j20 -l20
+[0.041s] [ 25%] [32mBuilding CXX object CMakeFiles/dm_set_zero_position.dir/src/dm_set_zero_position.cpp.o[0m
+[0.044s] [ 50%] [32mBuilding CXX object CMakeFiles/test_damiao.dir/src/test_damiao.cpp.o[0m
+[0.403s] [ 75%] [32m[1mLinking CXX executable test_damiao[0m
+[0.404s] [100%] [32m[1mLinking CXX executable dm_set_zero_position[0m
+[0.456s] [100%] Built target dm_set_zero_position
+[0.456s] [100%] Built target test_damiao
+[0.463s] Invoked command in '/home/stick/dm_joint_control/build/dm_Linux_Drive' returned '0': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/stick/dm_joint_control/build/dm_Linux_Drive -- -j20 -l20

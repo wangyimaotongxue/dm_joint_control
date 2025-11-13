@@ -1,0 +1,23 @@
+[0.006s] Invoking command in '/home/stick/dm_joint_control/build/turret': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/stick/dm_joint_control/build/turret -- -j20 -l20
+[0.028s] [35m[1mConsolidate compiler generated dependencies of target dm_motor_run[0m
+[0.036s] [100%] Built target dm_motor_run
+[0.046s] Invoked command in '/home/stick/dm_joint_control/build/turret' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/stick/dm_joint_control/build/turret -- -j20 -l20
+[0.054s] Invoking command in '/home/stick/dm_joint_control/build/turret': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/stick/dm_joint_control/build/turret
+[0.058s] -- Install configuration: ""
+[0.058s] -- Up-to-date: /home/stick/dm_joint_control/install/turret/lib/turret/dm_motor_run
+[0.058s] -- Up-to-date: /home/stick/dm_joint_control/install/turret/share/ament_index/resource_index/package_run_dependencies/turret
+[0.058s] -- Up-to-date: /home/stick/dm_joint_control/install/turret/share/ament_index/resource_index/parent_prefix_path/turret
+[0.058s] -- Up-to-date: /home/stick/dm_joint_control/install/turret/share/turret/environment/ament_prefix_path.sh
+[0.058s] -- Up-to-date: /home/stick/dm_joint_control/install/turret/share/turret/environment/ament_prefix_path.dsv
+[0.058s] -- Up-to-date: /home/stick/dm_joint_control/install/turret/share/turret/environment/path.sh
+[0.058s] -- Up-to-date: /home/stick/dm_joint_control/install/turret/share/turret/environment/path.dsv
+[0.058s] -- Up-to-date: /home/stick/dm_joint_control/install/turret/share/turret/local_setup.bash
+[0.058s] -- Up-to-date: /home/stick/dm_joint_control/install/turret/share/turret/local_setup.sh
+[0.058s] -- Up-to-date: /home/stick/dm_joint_control/install/turret/share/turret/local_setup.zsh
+[0.058s] -- Up-to-date: /home/stick/dm_joint_control/install/turret/share/turret/local_setup.dsv
+[0.058s] -- Installing: /home/stick/dm_joint_control/install/turret/share/turret/package.dsv
+[0.058s] -- Up-to-date: /home/stick/dm_joint_control/install/turret/share/ament_index/resource_index/packages/turret
+[0.058s] -- Up-to-date: /home/stick/dm_joint_control/install/turret/share/turret/cmake/turretConfig.cmake
+[0.058s] -- Up-to-date: /home/stick/dm_joint_control/install/turret/share/turret/cmake/turretConfig-version.cmake
+[0.058s] -- Up-to-date: /home/stick/dm_joint_control/install/turret/share/turret/package.xml
+[0.059s] Invoked command in '/home/stick/dm_joint_control/build/turret' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/stick/dm_joint_control/build/turret

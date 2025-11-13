@@ -1,0 +1,2 @@
+source;share/turret/environment/ament_prefix_path.sh
+source;share/turret/environment/path.sh

@@ -1,0 +1,16 @@
+/home/stick/dm_joint_control/install/turret/lib/turret/dm_motor_run
+/home/stick/dm_joint_control/install/turret/share/ament_index/resource_index/package_run_dependencies/turret
+/home/stick/dm_joint_control/install/turret/share/ament_index/resource_index/parent_prefix_path/turret
+/home/stick/dm_joint_control/install/turret/share/turret/environment/ament_prefix_path.sh
+/home/stick/dm_joint_control/install/turret/share/turret/environment/ament_prefix_path.dsv
+/home/stick/dm_joint_control/install/turret/share/turret/environment/path.sh
+/home/stick/dm_joint_control/install/turret/share/turret/environment/path.dsv
+/home/stick/dm_joint_control/install/turret/share/turret/local_setup.bash
+/home/stick/dm_joint_control/install/turret/share/turret/local_setup.sh
+/home/stick/dm_joint_control/install/turret/share/turret/local_setup.zsh
+/home/stick/dm_joint_control/install/turret/share/turret/local_setup.dsv
+/home/stick/dm_joint_control/install/turret/share/turret/package.dsv
+/home/stick/dm_joint_control/install/turret/share/ament_index/resource_index/packages/turret
+/home/stick/dm_joint_control/install/turret/share/turret/cmake/turretConfig.cmake
+/home/stick/dm_joint_control/install/turret/share/turret/cmake/turretConfig-version.cmake
+/home/stick/dm_joint_control/install/turret/share/turret/package.xml

@@ -1,0 +1,29 @@
+[0.006s] Invoking command in '/home/stick/dm_joint_control/build/dm_Linux_Drive': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/stick/dm_joint_control/src/u2can -DCMAKE_INSTALL_PREFIX=/home/stick/dm_joint_control/install/dm_Linux_Drive
+[0.072s] -- The C compiler identification is GNU 11.4.0
+[0.120s] -- The CXX compiler identification is GNU 11.4.0
+[0.125s] -- Detecting C compiler ABI info
+[0.166s] -- Detecting C compiler ABI info - done
+[0.170s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.170s] -- Detecting C compile features
+[0.170s] -- Detecting C compile features - done
+[0.172s] -- Detecting CXX compiler ABI info
+[0.216s] -- Detecting CXX compiler ABI info - done
+[0.220s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.220s] -- Detecting CXX compile features
+[0.220s] -- Detecting CXX compile features - done
+[0.220s] -- Configuring done
+[0.221s] [31mCMake Error at CMakeLists.txt:12 (add_executable):
+[0.221s]   Cannot find source file:
+[0.221s] 
+[0.221s]     src/dm_motor_position.cpp
+[0.221s] 
+[0.221s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+[0.221s]   .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+[0.221s] 
+[0.221s] [0m
+[0.221s] [31mCMake Error at CMakeLists.txt:12 (add_executable):
+[0.221s]   No SOURCES given to target: dm_motor_position
+[0.221s] 
+[0.221s] [0m
+[0.221s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[0.223s] Invoked command in '/home/stick/dm_joint_control/build/dm_Linux_Drive' returned '1': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/stick/dm_joint_control/src/u2can -DCMAKE_INSTALL_PREFIX=/home/stick/dm_joint_control/install/dm_Linux_Drive

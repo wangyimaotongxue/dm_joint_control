@@ -1,0 +1,9 @@
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/stick/dm_joint_control/build/dm_Linux_Drive
+[ 25%] [32mBuilding CXX object CMakeFiles/dm_set_zero_position.dir/src/dm_set_zero_position.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/test_damiao.dir/src/test_damiao.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable test_damiao[0m
+[100%] [32m[1mLinking CXX executable dm_set_zero_position[0m
+[100%] Built target dm_set_zero_position
+[100%] Built target test_damiao

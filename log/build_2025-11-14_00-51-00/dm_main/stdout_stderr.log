@@ -1,0 +1,9 @@
+[ 16%] [32mBuilding CXX object CMakeFiles/motor.dir/src/protocol/damiao.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/dev_sn.dir/src/dev_sn.cpp.o[0m
+[ 50%] [32m[1mLinking CXX executable dev_sn[0m
+[ 50%] Built target dev_sn
+[ 66%] [32m[1mLinking CXX static library libmotor.a[0m
+[ 66%] Built target motor
+[ 83%] [32mBuilding CXX object CMakeFiles/dm_main.dir/src/main.cpp.o[0m
+[100%] [32m[1mLinking CXX executable dm_main[0m
+[100%] Built target dm_main

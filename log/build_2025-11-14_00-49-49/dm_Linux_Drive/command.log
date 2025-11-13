@@ -1,0 +1,2 @@
+Invoking command in '/home/stick/dm_joint_control/build/dm_Linux_Drive': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/stick/dm_joint_control/src/u2can -DCMAKE_INSTALL_PREFIX=/home/stick/dm_joint_control/install/dm_Linux_Drive
+Invoked command in '/home/stick/dm_joint_control/build/dm_Linux_Drive' returned '1': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/stick/dm_joint_control/src/u2can -DCMAKE_INSTALL_PREFIX=/home/stick/dm_joint_control/install/dm_Linux_Drive

@@ -1,0 +1,5 @@
+/home/stick/dm_joint_control/build/dm_main/CMakeFiles/motor.dir
+/home/stick/dm_joint_control/build/dm_main/CMakeFiles/dm_main.dir
+/home/stick/dm_joint_control/build/dm_main/CMakeFiles/dev_sn.dir
+/home/stick/dm_joint_control/build/dm_main/CMakeFiles/edit_cache.dir
+/home/stick/dm_joint_control/build/dm_main/CMakeFiles/rebuild_cache.dir

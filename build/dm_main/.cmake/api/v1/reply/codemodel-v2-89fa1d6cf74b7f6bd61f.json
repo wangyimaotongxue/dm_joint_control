@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "dm_main",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "dev_sn::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dev_sn-1905bcb1809e38f37f92.json",
+					"name" : "dev_sn",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dm_main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dm_main-98d31d28cd8e68f40a6d.json",
+					"name" : "dm_main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "motor::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-motor-b0dd3a6f72c2ca337966.json",
+					"name" : "motor",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/stick/dm_joint_control/build/dm_main",
+		"source" : "/home/stick/dm_joint_control/src/DM_USB_to_canfd"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

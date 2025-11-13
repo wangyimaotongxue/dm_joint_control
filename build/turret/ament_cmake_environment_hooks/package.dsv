@@ -1,0 +1,4 @@
+source;share/turret/local_setup.bash
+source;share/turret/local_setup.dsv
+source;share/turret/local_setup.sh
+source;share/turret/local_setup.zsh

@@ -1,0 +1,2 @@
+Invoking command in '/home/stick/dm_joint_control/build/dm_main': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/stick/dm_joint_control/build/dm_main -- -j20 -l20
+Invoked command in '/home/stick/dm_joint_control/build/dm_main' returned '0': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/stick/dm_joint_control/build/dm_main -- -j20 -l20
