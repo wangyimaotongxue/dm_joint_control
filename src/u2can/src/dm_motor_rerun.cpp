@@ -8,12 +8,12 @@ damiao::Motor M2(damiao::DM4310,0x02, 0x00);
 std::shared_ptr<SerialPort> serial;
 damiao::Motor_Control dm(serial);
 
-// 初始化变量
-    float position = 0.1f;  // 起始位置
-    float increment = 0.01f; // 初始增量
-    bool positive_direction = true; // 运动方向标志
-    const float max_position = 1.0f; // 最大位置
-    const float min_increment = 0.01f; // 最小增量
+// // 初始化变量
+//     float position = 0.1f;  // 起始位置
+//     float increment = 0.01f; // 初始增量
+//     bool positive_direction = true; // 运动方向标志
+//     const float max_position = 1.0f; // 最大位置
+//     const float min_increment = 0.01f; // 最小增量
 
 
 int main(int argc, char  *argv[])
@@ -23,21 +23,13 @@ int main(int argc, char  *argv[])
     dm = damiao::Motor_Control(serial);
 
     dm.addMotor(&M1);
-    // dm.addMotor(&M2);
-    // 使能电机
+
     dm.enable(M1);  
 
-    // 失能电机 
-    // dm.disable(M1);
-    // dm.disable(M2);
     sleep(1);
     if(dm.switchControlMode(M1,damiao::MIT_MODE))
         std::cout << "Switch to MIT_MODE Success" << std::endl;
     
-    // dm.save_motor_param(M1);
-    // dm.save_motor_param(M2);
-    // dm.enable(M1);
-    // dm.enable(M2);
     sleep(1);
     while(1)
     {
@@ -50,28 +42,31 @@ int main(int argc, char  *argv[])
         // dm.refresh_motor_status(M2);
         std::cout<<"motor1--- POS:"<<M1.Get_Position()<<" VEL:"<<M1.Get_Velocity()<<" CUR:"<<M1.Get_tau()<<std::endl;
 
-        // 更新下一个目标位置
-        if (positive_direction) {
-            position += increment;
-            // 切换到负方向，增加增量
-            positive_direction = false;
-            increment += 0.01f; // 每次增加0.01
-        } else {
-            position -= increment;
-            // 切换到正方向
-            positive_direction = true;
-        }
+
+
+
+        // // 更新下一个目标位置
+        // if (positive_direction) {
+        //     position += increment;
+        //     // 切换到负方向，增加增量
+        //     positive_direction = false;
+        //     increment += 0.01f; // 每次增加0.01
+        // } else {
+        //     position -= increment;
+        //     // 切换到正方向
+        //     positive_direction = true;
+        // }
         
-        // 检查是否达到最大位置
-        if (position >= max_position) {
-            std::cout << "达到目标位置1rad，停止运动" << std::endl;
-            break; // 退出循环
-        }
+        // // 检查是否达到最大位置
+        // if (position >= max_position) {
+        //     std::cout << "达到目标位置1rad，停止运动" << std::endl;
+        //     break; // 退出循环
+        // }
         
-        // 确保位置不小于0（可选）
-        if (position < 0) {
-            position = 0;
-        }
+        // // 确保位置不小于0（可选）
+        // if (position < 0) {
+        //     position = 0;
+        // }
         
         usleep(100000); // 100ms延迟，让电机有时间响应
 
@@ -86,3 +81,4 @@ int main(int argc, char  *argv[])
 
     return 0;
 }
+
