@@ -1,8 +1,8 @@
-# Install script for directory: /home/stick/dm_joint_control/src/u2can
+# Install script for directory: /home/orangepi/dm_joint_control/src/u2can
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/stick/dm_joint_control/install/dm_Linux_Drive")
+  set(CMAKE_INSTALL_PREFIX "/home/orangepi/dm_joint_control/install/dm_Linux_Drive")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/stick/dm_joint_control/build/dm_Linux_Drive/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/orangepi/dm_joint_control/build/dm_Linux_Drive/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

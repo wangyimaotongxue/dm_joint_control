@@ -1,0 +1,17 @@
+In file included from [01m[K/home/orangepi/dm_joint_control/src/turret/include/damiao.h:4[m[K,
+                 from [01m[K/home/orangepi/dm_joint_control/src/turret/src/dm_motor_run.cpp:2[m[K:
+[01m[K/home/orangepi/dm_joint_control/src/turret/include/SerialPort.h:[m[K In member function ‘[01m[Kvoid SerialPort::recv(uint8_t*, uint8_t, ssize_t)[m[K’:
+[01m[K/home/orangepi/dm_joint_control/src/turret/include/SerialPort.h:82:30:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::queue<unsigned char>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kssize_t[m[K’ {aka ‘[01m[Klong int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   82 |     while ([01;35m[Krecv_queue.size() >= len[m[K)
+      |            [01;35m[K~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/home/orangepi/dm_joint_control/src/turret/include/SerialPort.h:92:26:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::queue<unsigned char>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kssize_t[m[K’ {aka ‘[01m[Klong int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   92 |     if([01;35m[Krecv_queue.size() < len[m[K) return;
+      |        [01;35m[K~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/home/orangepi/dm_joint_control/src/turret/include/SerialPort.h:[m[K In member function ‘[01m[Kvoid SerialPort::Init(std::string, speed_t)[m[K’:
+[01m[K/home/orangepi/dm_joint_control/src/turret/include/SerialPort.h:111:9:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kret[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+  111 |     int [01;35m[Kret[m[K;
+      |         [01;35m[K^~~[m[K
+[01m[K/home/orangepi/dm_joint_control/src/turret/src/dm_motor_run.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/orangepi/dm_joint_control/src/turret/src/dm_motor_run.cpp:40:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kq[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   40 |         float [01;35m[Kq[m[K = sin(std::chrono::system_clock::now().time_since_epoch().count() / 1e9);
+      |               [01;35m[K^[m[K

@@ -1,0 +1,4 @@
+Invoking command in '/home/orangepi/dm_joint_control/build/dm_main': /usr/bin/cmake /home/orangepi/dm_joint_control/src/DM_USB_to_canfd -DCMAKE_INSTALL_PREFIX=/home/orangepi/dm_joint_control/install/dm_main
+Invoked command in '/home/orangepi/dm_joint_control/build/dm_main' returned '0': /usr/bin/cmake /home/orangepi/dm_joint_control/src/DM_USB_to_canfd -DCMAKE_INSTALL_PREFIX=/home/orangepi/dm_joint_control/install/dm_main
+Invoking command in '/home/orangepi/dm_joint_control/build/dm_main': /usr/bin/cmake --build /home/orangepi/dm_joint_control/build/dm_main -- -j8 -l8
+Invoked command in '/home/orangepi/dm_joint_control/build/dm_main' returned '2': /usr/bin/cmake --build /home/orangepi/dm_joint_control/build/dm_main -- -j8 -l8

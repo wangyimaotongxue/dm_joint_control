@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/stick/dm_joint_control/src/DM_USB_to_canfd/include -I/usr/include/libusb-1.0
+CXX_INCLUDES = -I/home/orangepi/dm_joint_control/src/DM_USB_to_canfd/include -I/usr/include/libusb-1.0
 
 CXX_FLAGS = -std=gnu++14
 

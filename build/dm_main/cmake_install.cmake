@@ -1,8 +1,8 @@
-# Install script for directory: /home/stick/dm_joint_control/src/DM_USB_to_canfd
+# Install script for directory: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/stick/dm_joint_control/install/dm_main")
+  set(CMAKE_INSTALL_PREFIX "/home/orangepi/dm_joint_control/install/dm_main")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/stick/dm_joint_control/build/dm_main/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/orangepi/dm_joint_control/build/dm_main/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

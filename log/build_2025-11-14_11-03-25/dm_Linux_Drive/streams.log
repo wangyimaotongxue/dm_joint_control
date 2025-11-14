@@ -1,0 +1,28 @@
+[0.040s] Invoking command in '/home/orangepi/dm_joint_control/build/dm_Linux_Drive': /usr/bin/cmake /home/orangepi/dm_joint_control/src/u2can -DCMAKE_INSTALL_PREFIX=/home/orangepi/dm_joint_control/install/dm_Linux_Drive
+[0.343s] -- The C compiler identification is GNU 11.4.0
+[0.576s] -- The CXX compiler identification is GNU 11.4.0
+[0.592s] -- Detecting C compiler ABI info
+[0.809s] -- Detecting C compiler ABI info - done
+[0.829s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.829s] -- Detecting C compile features
+[0.830s] -- Detecting C compile features - done
+[0.833s] -- Detecting CXX compiler ABI info
+[1.082s] -- Detecting CXX compiler ABI info - done
+[1.094s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.095s] -- Detecting CXX compile features
+[1.095s] -- Detecting CXX compile features - done
+[1.096s] -- Configuring done
+[1.102s] -- Generating done
+[1.104s] -- Build files have been written to: /home/orangepi/dm_joint_control/build/dm_Linux_Drive
+[1.116s] Invoked command in '/home/orangepi/dm_joint_control/build/dm_Linux_Drive' returned '0': /usr/bin/cmake /home/orangepi/dm_joint_control/src/u2can -DCMAKE_INSTALL_PREFIX=/home/orangepi/dm_joint_control/install/dm_Linux_Drive
+[1.121s] Invoking command in '/home/orangepi/dm_joint_control/build/dm_Linux_Drive': /usr/bin/cmake --build /home/orangepi/dm_joint_control/build/dm_Linux_Drive -- -j8 -l8
+[1.285s] [ 16%] [32mBuilding CXX object CMakeFiles/dm_motor_rerun.dir/src/dm_motor_rerun.cpp.o[0m
+[1.287s] [ 50%] [32mBuilding CXX object CMakeFiles/test_damiao.dir/src/test_damiao.cpp.o[0m
+[1.288s] [ 50%] [32mBuilding CXX object CMakeFiles/dm_set_zero_position.dir/src/dm_set_zero_position.cpp.o[0m
+[2.709s] [ 66%] [32m[1mLinking CXX executable dm_motor_rerun[0m
+[2.720s] [ 83%] [32m[1mLinking CXX executable dm_set_zero_position[0m
+[2.729s] [100%] [32m[1mLinking CXX executable test_damiao[0m
+[2.892s] [100%] Built target dm_motor_rerun
+[2.942s] [100%] Built target dm_set_zero_position
+[2.945s] [100%] Built target test_damiao
+[2.980s] Invoked command in '/home/orangepi/dm_joint_control/build/dm_Linux_Drive' returned '0': /usr/bin/cmake --build /home/orangepi/dm_joint_control/build/dm_Linux_Drive -- -j8 -l8

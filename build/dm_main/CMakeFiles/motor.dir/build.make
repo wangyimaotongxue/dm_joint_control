@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/stick/dm_joint_control/src/DM_USB_to_canfd
+CMAKE_SOURCE_DIR = /home/orangepi/dm_joint_control/src/DM_USB_to_canfd
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/stick/dm_joint_control/build/dm_main
+CMAKE_BINARY_DIR = /home/orangepi/dm_joint_control/build/dm_main
 
 # Include any dependencies generated for this target.
 include CMakeFiles/motor.dir/depend.make
@@ -70,18 +70,18 @@ include CMakeFiles/motor.dir/progress.make
 include CMakeFiles/motor.dir/flags.make
 
 CMakeFiles/motor.dir/src/protocol/damiao.cpp.o: CMakeFiles/motor.dir/flags.make
-CMakeFiles/motor.dir/src/protocol/damiao.cpp.o: /home/stick/dm_joint_control/src/DM_USB_to_canfd/src/protocol/damiao.cpp
+CMakeFiles/motor.dir/src/protocol/damiao.cpp.o: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/src/protocol/damiao.cpp
 CMakeFiles/motor.dir/src/protocol/damiao.cpp.o: CMakeFiles/motor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stick/dm_joint_control/build/dm_main/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/motor.dir/src/protocol/damiao.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/motor.dir/src/protocol/damiao.cpp.o -MF CMakeFiles/motor.dir/src/protocol/damiao.cpp.o.d -o CMakeFiles/motor.dir/src/protocol/damiao.cpp.o -c /home/stick/dm_joint_control/src/DM_USB_to_canfd/src/protocol/damiao.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/orangepi/dm_joint_control/build/dm_main/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/motor.dir/src/protocol/damiao.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/motor.dir/src/protocol/damiao.cpp.o -MF CMakeFiles/motor.dir/src/protocol/damiao.cpp.o.d -o CMakeFiles/motor.dir/src/protocol/damiao.cpp.o -c /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/src/protocol/damiao.cpp
 
 CMakeFiles/motor.dir/src/protocol/damiao.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/motor.dir/src/protocol/damiao.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stick/dm_joint_control/src/DM_USB_to_canfd/src/protocol/damiao.cpp > CMakeFiles/motor.dir/src/protocol/damiao.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/src/protocol/damiao.cpp > CMakeFiles/motor.dir/src/protocol/damiao.cpp.i
 
 CMakeFiles/motor.dir/src/protocol/damiao.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/motor.dir/src/protocol/damiao.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stick/dm_joint_control/src/DM_USB_to_canfd/src/protocol/damiao.cpp -o CMakeFiles/motor.dir/src/protocol/damiao.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/src/protocol/damiao.cpp -o CMakeFiles/motor.dir/src/protocol/damiao.cpp.s
 
 # Object files for target motor
 motor_OBJECTS = \
@@ -93,7 +93,7 @@ motor_EXTERNAL_OBJECTS =
 libmotor.a: CMakeFiles/motor.dir/src/protocol/damiao.cpp.o
 libmotor.a: CMakeFiles/motor.dir/build.make
 libmotor.a: CMakeFiles/motor.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/stick/dm_joint_control/build/dm_main/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libmotor.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/orangepi/dm_joint_control/build/dm_main/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libmotor.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/motor.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/motor.dir/link.txt --verbose=$(VERBOSE)
 
@@ -106,6 +106,6 @@ CMakeFiles/motor.dir/clean:
 .PHONY : CMakeFiles/motor.dir/clean
 
 CMakeFiles/motor.dir/depend:
-	cd /home/stick/dm_joint_control/build/dm_main && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/stick/dm_joint_control/src/DM_USB_to_canfd /home/stick/dm_joint_control/src/DM_USB_to_canfd /home/stick/dm_joint_control/build/dm_main /home/stick/dm_joint_control/build/dm_main /home/stick/dm_joint_control/build/dm_main/CMakeFiles/motor.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/orangepi/dm_joint_control/build/dm_main && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/orangepi/dm_joint_control/src/DM_USB_to_canfd /home/orangepi/dm_joint_control/src/DM_USB_to_canfd /home/orangepi/dm_joint_control/build/dm_main /home/orangepi/dm_joint_control/build/dm_main /home/orangepi/dm_joint_control/build/dm_main/CMakeFiles/motor.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/motor.dir/depend
 

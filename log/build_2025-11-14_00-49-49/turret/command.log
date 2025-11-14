@@ -1,1 +1,0 @@
-Invoking command in '/home/stick/dm_joint_control/build/turret': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/stick/dm_joint_control/src/turret -DCMAKE_INSTALL_PREFIX=/home/stick/dm_joint_control/install/turret

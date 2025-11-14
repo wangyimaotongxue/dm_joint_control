@@ -1,4 +1,5 @@
-/home/stick/dm_joint_control/build/dm_Linux_Drive/CMakeFiles/dm_set_zero_position.dir
-/home/stick/dm_joint_control/build/dm_Linux_Drive/CMakeFiles/test_damiao.dir
-/home/stick/dm_joint_control/build/dm_Linux_Drive/CMakeFiles/edit_cache.dir
-/home/stick/dm_joint_control/build/dm_Linux_Drive/CMakeFiles/rebuild_cache.dir
+/home/orangepi/dm_joint_control/build/dm_Linux_Drive/CMakeFiles/dm_motor_rerun.dir
+/home/orangepi/dm_joint_control/build/dm_Linux_Drive/CMakeFiles/dm_set_zero_position.dir
+/home/orangepi/dm_joint_control/build/dm_Linux_Drive/CMakeFiles/test_damiao.dir
+/home/orangepi/dm_joint_control/build/dm_Linux_Drive/CMakeFiles/edit_cache.dir
+/home/orangepi/dm_joint_control/build/dm_Linux_Drive/CMakeFiles/rebuild_cache.dir

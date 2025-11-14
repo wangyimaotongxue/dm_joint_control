@@ -1,0 +1,446 @@
+[0.000000] (-) TimerEvent: {}
+[0.000294] (dm_Linux_Drive) JobQueued: {'identifier': 'dm_Linux_Drive', 'dependencies': OrderedDict()}
+[0.000340] (dm_main) JobQueued: {'identifier': 'dm_main', 'dependencies': OrderedDict()}
+[0.000363] (turret) JobQueued: {'identifier': 'turret', 'dependencies': OrderedDict()}
+[0.002393] (dm_Linux_Drive) JobStarted: {'identifier': 'dm_Linux_Drive'}
+[0.024801] (dm_main) JobStarted: {'identifier': 'dm_main'}
+[0.030180] (turret) JobStarted: {'identifier': 'turret'}
+[0.036007] (dm_Linux_Drive) JobProgress: {'identifier': 'dm_Linux_Drive', 'progress': 'cmake'}
+[0.037554] (dm_Linux_Drive) Command: {'cmd': ['/usr/bin/cmake', '/home/orangepi/dm_joint_control/src/u2can', '-DCMAKE_INSTALL_PREFIX=/home/orangepi/dm_joint_control/install/dm_Linux_Drive'], 'cwd': '/home/orangepi/dm_joint_control/build/dm_Linux_Drive', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('UMS_MOUNTPOINT', '/mnt/ums'), ('GST_V4L2_PREFERRED_FOURCC', 'NV12:YU12:NV16:YUY2'), ('LANGUAGE', 'en_US.UTF-8'), ('USER', 'orangepi'), ('SSH_CLIENT', '192.168.77.208 33512 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/orangepi/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('USB_FUNCS', 'adb'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/orangepi/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/orangepi'), ('OLDPWD', '/home/orangepi'), ('TERM_PROGRAM_VERSION', '1.105.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-7b05219f-f6cb-4877-8a68-f6cb1392bd6e.sock'), ('GST_INSPECT_NO_COLORS', '1'), ('GST_MPP_NO_RGA', '1'), ('ROS_PYTHON_VERSION', '3'), ('COGL_DRIVER', 'gles2'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/orangepi/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/orangepi/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GST_V4L2SRC_MAX_RESOLUTION', '3840x2160'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'orangepi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GST_GL_API', 'gles2'), ('XDG_SESSION_ID', '9'), ('GST_VIDEO_CONVERT_PREFERRED_FORMAT', 'NV12:NV16:I420:YUY2'), ('GST_V4L2SRC_RK_DEVICES', '_mainpath:_selfpath:_bypass:_scale'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/orangepi/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GST_GL_PLATFORM', 'egl'), ('GST_DEBUG_NO_COLOR', '1'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('GST_V4L2SRC_DEFAULT_DEVICE', '/dev/video-camera0'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-96594ccc57.sock'), ('TERM_PROGRAM', 'vscode'), ('GST_V4L2_USE_LIBV4L2', '1'), ('UMS_SIZE', '256M'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('LC_MESSAGES', 'en_US.UTF-8'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('UMS_RO', '0'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('UMS_FSTYPE', 'vfat'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/orangepi/dm_joint_control/build/dm_Linux_Drive'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.77.208 33512 192.168.77.109 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share/:/usr/share/'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('UMS_MOUNT', '0'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('UMS_FILE', '/userdata/ums_shared.img')]), 'shell': False}
+[0.044197] (dm_main) JobProgress: {'identifier': 'dm_main', 'progress': 'cmake'}
+[0.045160] (dm_main) Command: {'cmd': ['/usr/bin/cmake', '/home/orangepi/dm_joint_control/src/DM_USB_to_canfd', '-DCMAKE_INSTALL_PREFIX=/home/orangepi/dm_joint_control/install/dm_main'], 'cwd': '/home/orangepi/dm_joint_control/build/dm_main', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('UMS_MOUNTPOINT', '/mnt/ums'), ('GST_V4L2_PREFERRED_FOURCC', 'NV12:YU12:NV16:YUY2'), ('LANGUAGE', 'en_US.UTF-8'), ('USER', 'orangepi'), ('SSH_CLIENT', '192.168.77.208 33512 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/orangepi/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('USB_FUNCS', 'adb'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/orangepi/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/orangepi'), ('OLDPWD', '/home/orangepi'), ('TERM_PROGRAM_VERSION', '1.105.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-7b05219f-f6cb-4877-8a68-f6cb1392bd6e.sock'), ('GST_INSPECT_NO_COLORS', '1'), ('GST_MPP_NO_RGA', '1'), ('ROS_PYTHON_VERSION', '3'), ('COGL_DRIVER', 'gles2'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/orangepi/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/orangepi/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GST_V4L2SRC_MAX_RESOLUTION', '3840x2160'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'orangepi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GST_GL_API', 'gles2'), ('XDG_SESSION_ID', '9'), ('GST_VIDEO_CONVERT_PREFERRED_FORMAT', 'NV12:NV16:I420:YUY2'), ('GST_V4L2SRC_RK_DEVICES', '_mainpath:_selfpath:_bypass:_scale'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/orangepi/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GST_GL_PLATFORM', 'egl'), ('GST_DEBUG_NO_COLOR', '1'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('GST_V4L2SRC_DEFAULT_DEVICE', '/dev/video-camera0'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-96594ccc57.sock'), ('TERM_PROGRAM', 'vscode'), ('GST_V4L2_USE_LIBV4L2', '1'), ('UMS_SIZE', '256M'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('LC_MESSAGES', 'en_US.UTF-8'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('UMS_RO', '0'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('UMS_FSTYPE', 'vfat'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/orangepi/dm_joint_control/build/dm_main'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.77.208 33512 192.168.77.109 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share/:/usr/share/'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('UMS_MOUNT', '0'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('UMS_FILE', '/userdata/ums_shared.img')]), 'shell': False}
+[0.050873] (turret) JobProgress: {'identifier': 'turret', 'progress': 'cmake'}
+[0.051558] (turret) Command: {'cmd': ['/usr/bin/cmake', '/home/orangepi/dm_joint_control/src/turret', '-DCMAKE_INSTALL_PREFIX=/home/orangepi/dm_joint_control/install/turret'], 'cwd': '/home/orangepi/dm_joint_control/build/turret', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('UMS_MOUNTPOINT', '/mnt/ums'), ('GST_V4L2_PREFERRED_FOURCC', 'NV12:YU12:NV16:YUY2'), ('LANGUAGE', 'en_US.UTF-8'), ('USER', 'orangepi'), ('SSH_CLIENT', '192.168.77.208 33512 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/orangepi/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('USB_FUNCS', 'adb'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/orangepi/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/orangepi'), ('OLDPWD', '/home/orangepi'), ('TERM_PROGRAM_VERSION', '1.105.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-7b05219f-f6cb-4877-8a68-f6cb1392bd6e.sock'), ('GST_INSPECT_NO_COLORS', '1'), ('GST_MPP_NO_RGA', '1'), ('ROS_PYTHON_VERSION', '3'), ('COGL_DRIVER', 'gles2'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/orangepi/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/orangepi/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GST_V4L2SRC_MAX_RESOLUTION', '3840x2160'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'orangepi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GST_GL_API', 'gles2'), ('XDG_SESSION_ID', '9'), ('GST_VIDEO_CONVERT_PREFERRED_FORMAT', 'NV12:NV16:I420:YUY2'), ('GST_V4L2SRC_RK_DEVICES', '_mainpath:_selfpath:_bypass:_scale'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/orangepi/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GST_GL_PLATFORM', 'egl'), ('GST_DEBUG_NO_COLOR', '1'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('GST_V4L2SRC_DEFAULT_DEVICE', '/dev/video-camera0'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-96594ccc57.sock'), ('TERM_PROGRAM', 'vscode'), ('GST_V4L2_USE_LIBV4L2', '1'), ('UMS_SIZE', '256M'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('LC_MESSAGES', 'en_US.UTF-8'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('UMS_RO', '0'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('UMS_FSTYPE', 'vfat'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/orangepi/dm_joint_control/build/turret'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.77.208 33512 192.168.77.109 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share/:/usr/share/'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('UMS_MOUNT', '0'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('UMS_FILE', '/userdata/ums_shared.img'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.098784] (-) TimerEvent: {}
+[0.200204] (-) TimerEvent: {}
+[0.301184] (-) TimerEvent: {}
+[0.341305] (dm_main) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.342448] (turret) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.345219] (dm_Linux_Drive) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.401307] (-) TimerEvent: {}
+[0.502258] (-) TimerEvent: {}
+[0.577638] (dm_main) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.578303] (dm_Linux_Drive) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.578956] (turret) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.594078] (dm_Linux_Drive) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.594743] (turret) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.599194] (dm_main) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.602369] (-) TimerEvent: {}
+[0.703593] (-) TimerEvent: {}
+[0.775797] (turret) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.787386] (turret) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.793484] (turret) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.796754] (turret) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.803905] (-) TimerEvent: {}
+[0.810903] (dm_Linux_Drive) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.812548] (turret) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.816192] (dm_main) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.828360] (dm_main) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.829397] (dm_main) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.830330] (dm_main) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.831028] (dm_Linux_Drive) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.831549] (dm_Linux_Drive) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.831988] (dm_Linux_Drive) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.835314] (dm_Linux_Drive) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.835958] (dm_main) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.904196] (-) TimerEvent: {}
+[1.005480] (-) TimerEvent: {}
+[1.040365] (dm_main) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.055083] (dm_main) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.056870] (dm_main) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.057746] (dm_main) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.065084] (dm_main) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.077069] (turret) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.084421] (dm_Linux_Drive) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.096460] (dm_Linux_Drive) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.096955] (dm_Linux_Drive) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.097319] (dm_Linux_Drive) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.098700] (dm_Linux_Drive) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.104351] (dm_Linux_Drive) StdoutLine: {'line': b'-- Generating done\n'}
+[1.105512] (-) TimerEvent: {}
+[1.106536] (dm_Linux_Drive) StdoutLine: {'line': b'-- Build files have been written to: /home/orangepi/dm_joint_control/build/dm_Linux_Drive\n'}
+[1.115198] (dm_Linux_Drive) CommandEnded: {'returncode': 0}
+[1.120871] (dm_Linux_Drive) JobProgress: {'identifier': 'dm_Linux_Drive', 'progress': 'build'}
+[1.121663] (dm_Linux_Drive) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/orangepi/dm_joint_control/build/dm_Linux_Drive', '--', '-j8', '-l8'], 'cwd': '/home/orangepi/dm_joint_control/build/dm_Linux_Drive', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('UMS_MOUNTPOINT', '/mnt/ums'), ('GST_V4L2_PREFERRED_FOURCC', 'NV12:YU12:NV16:YUY2'), ('LANGUAGE', 'en_US.UTF-8'), ('USER', 'orangepi'), ('SSH_CLIENT', '192.168.77.208 33512 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/orangepi/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('USB_FUNCS', 'adb'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/orangepi/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/orangepi'), ('OLDPWD', '/home/orangepi'), ('TERM_PROGRAM_VERSION', '1.105.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-7b05219f-f6cb-4877-8a68-f6cb1392bd6e.sock'), ('GST_INSPECT_NO_COLORS', '1'), ('GST_MPP_NO_RGA', '1'), ('ROS_PYTHON_VERSION', '3'), ('COGL_DRIVER', 'gles2'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/orangepi/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/orangepi/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GST_V4L2SRC_MAX_RESOLUTION', '3840x2160'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'orangepi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GST_GL_API', 'gles2'), ('XDG_SESSION_ID', '9'), ('GST_VIDEO_CONVERT_PREFERRED_FORMAT', 'NV12:NV16:I420:YUY2'), ('GST_V4L2SRC_RK_DEVICES', '_mainpath:_selfpath:_bypass:_scale'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/orangepi/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GST_GL_PLATFORM', 'egl'), ('GST_DEBUG_NO_COLOR', '1'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('GST_V4L2SRC_DEFAULT_DEVICE', '/dev/video-camera0'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-96594ccc57.sock'), ('TERM_PROGRAM', 'vscode'), ('GST_V4L2_USE_LIBV4L2', '1'), ('UMS_SIZE', '256M'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('LC_MESSAGES', 'en_US.UTF-8'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('UMS_RO', '0'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('UMS_FSTYPE', 'vfat'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/orangepi/dm_joint_control/build/dm_Linux_Drive'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.77.208 33512 192.168.77.109 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share/:/usr/share/'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('UMS_MOUNT', '0'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('UMS_FILE', '/userdata/ums_shared.img')]), 'shell': False}
+[1.124770] (turret) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.125360] (turret) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.125757] (turret) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.129001] (turret) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.205888] (-) TimerEvent: {}
+[1.275384] (dm_main) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.276618] (dm_main) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.286538] (dm_Linux_Drive) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/dm_motor_rerun.dir/src/dm_motor_rerun.cpp.o\x1b[0m\n'}
+[1.289128] (dm_Linux_Drive) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/test_damiao.dir/src/test_damiao.cpp.o\x1b[0m\n'}
+[1.289819] (dm_Linux_Drive) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/dm_set_zero_position.dir/src/dm_set_zero_position.cpp.o\x1b[0m\n'}
+[1.306101] (-) TimerEvent: {}
+[1.406877] (-) TimerEvent: {}
+[1.507787] (-) TimerEvent: {}
+[1.557398] (dm_main) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.561768] (dm_main) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.576228] (dm_main) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") \n'}
+[1.579368] (dm_main) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[1.585721] (turret) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.608188] (-) TimerEvent: {}
+[1.608974] (dm_main) StdoutLine: {'line': b'--   Found libusb-1.0, version 1.0.25\n'}
+[1.702687] (dm_main) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.708386] (-) TimerEvent: {}
+[1.722718] (dm_main) StdoutLine: {'line': b'-- Generating done\n'}
+[1.735844] (dm_main) StdoutLine: {'line': b'-- Build files have been written to: /home/orangepi/dm_joint_control/build/dm_main\n'}
+[1.764939] (dm_main) CommandEnded: {'returncode': 0}
+[1.769240] (dm_main) JobProgress: {'identifier': 'dm_main', 'progress': 'build'}
+[1.770875] (dm_main) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/orangepi/dm_joint_control/build/dm_main', '--', '-j8', '-l8'], 'cwd': '/home/orangepi/dm_joint_control/build/dm_main', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('UMS_MOUNTPOINT', '/mnt/ums'), ('GST_V4L2_PREFERRED_FOURCC', 'NV12:YU12:NV16:YUY2'), ('LANGUAGE', 'en_US.UTF-8'), ('USER', 'orangepi'), ('SSH_CLIENT', '192.168.77.208 33512 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/orangepi/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('USB_FUNCS', 'adb'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/orangepi/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/orangepi'), ('OLDPWD', '/home/orangepi'), ('TERM_PROGRAM_VERSION', '1.105.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-7b05219f-f6cb-4877-8a68-f6cb1392bd6e.sock'), ('GST_INSPECT_NO_COLORS', '1'), ('GST_MPP_NO_RGA', '1'), ('ROS_PYTHON_VERSION', '3'), ('COGL_DRIVER', 'gles2'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/orangepi/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/orangepi/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GST_V4L2SRC_MAX_RESOLUTION', '3840x2160'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'orangepi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GST_GL_API', 'gles2'), ('XDG_SESSION_ID', '9'), ('GST_VIDEO_CONVERT_PREFERRED_FORMAT', 'NV12:NV16:I420:YUY2'), ('GST_V4L2SRC_RK_DEVICES', '_mainpath:_selfpath:_bypass:_scale'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/orangepi/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GST_GL_PLATFORM', 'egl'), ('GST_DEBUG_NO_COLOR', '1'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('GST_V4L2SRC_DEFAULT_DEVICE', '/dev/video-camera0'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-96594ccc57.sock'), ('TERM_PROGRAM', 'vscode'), ('GST_V4L2_USE_LIBV4L2', '1'), ('UMS_SIZE', '256M'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('LC_MESSAGES', 'en_US.UTF-8'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('UMS_RO', '0'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('UMS_FSTYPE', 'vfat'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/orangepi/dm_joint_control/build/dm_main'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.77.208 33512 192.168.77.109 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share/:/usr/share/'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('UMS_MOUNT', '0'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('UMS_FILE', '/userdata/ums_shared.img')]), 'shell': False}
+[1.808617] (-) TimerEvent: {}
+[1.860907] (turret) StdoutLine: {'line': b'-- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.901495] (dm_main) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/dev_sn.dir/src/dev_sn.cpp.o\x1b[0m\n'}
+[1.902291] (dm_main) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/motor.dir/src/protocol/damiao.cpp.o\x1b[0m\n'}
+[1.908854] (-) TimerEvent: {}
+[1.952538] (turret) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.976921] (turret) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.009415] (-) TimerEvent: {}
+[2.024806] (turret) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.107434] (turret) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.109572] (-) TimerEvent: {}
+[2.211031] (-) TimerEvent: {}
+[2.219144] (turret) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.311282] (-) TimerEvent: {}
+[2.399183] (dm_main) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX executable dev_sn\x1b[0m\n'}
+[2.411855] (-) TimerEvent: {}
+[2.450750] (turret) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.463292] (turret) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.512177] (-) TimerEvent: {}
+[2.613267] (-) TimerEvent: {}
+[2.694766] (dm_main) StdoutLine: {'line': b'[ 50%] Built target dev_sn\n'}
+[2.711339] (dm_Linux_Drive) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX executable dm_motor_rerun\x1b[0m\n'}
+[2.713360] (-) TimerEvent: {}
+[2.721913] (dm_Linux_Drive) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX executable dm_set_zero_position\x1b[0m\n'}
+[2.731144] (dm_Linux_Drive) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable test_damiao\x1b[0m\n'}
+[2.756172] (turret) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[2.806219] (turret) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[2.813686] (-) TimerEvent: {}
+[2.894261] (dm_Linux_Drive) StdoutLine: {'line': b'[100%] Built target dm_motor_rerun\n'}
+[2.901965] (turret) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.913894] (-) TimerEvent: {}
+[2.914802] (turret) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[2.944415] (dm_Linux_Drive) StdoutLine: {'line': b'[100%] Built target dm_set_zero_position\n'}
+[2.947316] (dm_Linux_Drive) StdoutLine: {'line': b'[100%] Built target test_damiao\n'}
+[2.982240] (dm_Linux_Drive) CommandEnded: {'returncode': 0}
+[3.014787] (-) TimerEvent: {}
+[3.035011] (dm_Linux_Drive) JobEnded: {'identifier': 'dm_Linux_Drive', 'rc': 0}
+[3.067130] (turret) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[3.067660] (turret) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[3.115067] (-) TimerEvent: {}
+[3.216468] (-) TimerEvent: {}
+[3.273436] (turret) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[3.275269] (turret) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[3.316773] (-) TimerEvent: {}
+[3.417733] (-) TimerEvent: {}
+[3.432080] (turret) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[3.517961] (-) TimerEvent: {}
+[3.619081] (-) TimerEvent: {}
+[3.632299] (turret) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.633115] (turret) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/orangepi/dm_joint_control/src/turret/include\n'}
+[3.633473] (turret) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.635841] (turret) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.639222] (turret) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[3.639574] (turret) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[3.641166] (turret) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.646333] (turret) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.665913] (turret) StdoutLine: {'line': b'-- Generating done\n'}
+[3.672111] (turret) StdoutLine: {'line': b'-- Build files have been written to: /home/orangepi/dm_joint_control/build/turret\n'}
+[3.699444] (turret) CommandEnded: {'returncode': 0}
+[3.704184] (turret) JobProgress: {'identifier': 'turret', 'progress': 'build'}
+[3.704380] (turret) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/orangepi/dm_joint_control/build/turret', '--', '-j8', '-l8'], 'cwd': '/home/orangepi/dm_joint_control/build/turret', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('UMS_MOUNTPOINT', '/mnt/ums'), ('GST_V4L2_PREFERRED_FOURCC', 'NV12:YU12:NV16:YUY2'), ('LANGUAGE', 'en_US.UTF-8'), ('USER', 'orangepi'), ('SSH_CLIENT', '192.168.77.208 33512 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/orangepi/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('USB_FUNCS', 'adb'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/orangepi/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/orangepi'), ('OLDPWD', '/home/orangepi'), ('TERM_PROGRAM_VERSION', '1.105.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-7b05219f-f6cb-4877-8a68-f6cb1392bd6e.sock'), ('GST_INSPECT_NO_COLORS', '1'), ('GST_MPP_NO_RGA', '1'), ('ROS_PYTHON_VERSION', '3'), ('COGL_DRIVER', 'gles2'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/orangepi/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/orangepi/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GST_V4L2SRC_MAX_RESOLUTION', '3840x2160'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'orangepi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GST_GL_API', 'gles2'), ('XDG_SESSION_ID', '9'), ('GST_VIDEO_CONVERT_PREFERRED_FORMAT', 'NV12:NV16:I420:YUY2'), ('GST_V4L2SRC_RK_DEVICES', '_mainpath:_selfpath:_bypass:_scale'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/orangepi/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GST_GL_PLATFORM', 'egl'), ('GST_DEBUG_NO_COLOR', '1'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('GST_V4L2SRC_DEFAULT_DEVICE', '/dev/video-camera0'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-96594ccc57.sock'), ('TERM_PROGRAM', 'vscode'), ('GST_V4L2_USE_LIBV4L2', '1'), ('UMS_SIZE', '256M'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('LC_MESSAGES', 'en_US.UTF-8'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('UMS_RO', '0'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('UMS_FSTYPE', 'vfat'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/orangepi/dm_joint_control/build/turret'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.77.208 33512 192.168.77.109 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share/:/usr/share/'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('UMS_MOUNT', '0'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('UMS_FILE', '/userdata/ums_shared.img'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.716597] (dm_main) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX static library libmotor.a\x1b[0m\n'}
+[3.719159] (-) TimerEvent: {}
+[3.820240] (-) TimerEvent: {}
+[3.837316] (dm_main) StdoutLine: {'line': b'[ 66%] Built target motor\n'}
+[3.859573] (turret) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/dm_motor_run.dir/src/dm_motor_run.cpp.o\x1b[0m\n'}
+[3.908131] (dm_main) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/dm_main.dir/src/main.cpp.o\x1b[0m\n'}
+[3.920536] (-) TimerEvent: {}
+[4.021732] (-) TimerEvent: {}
+[4.123086] (-) TimerEvent: {}
+[4.224435] (-) TimerEvent: {}
+[4.325826] (-) TimerEvent: {}
+[4.427367] (-) TimerEvent: {}
+[4.528719] (-) TimerEvent: {}
+[4.630158] (-) TimerEvent: {}
+[4.731673] (-) TimerEvent: {}
+[4.833154] (-) TimerEvent: {}
+[4.934643] (-) TimerEvent: {}
+[5.031739] (dm_main) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable dm_main\x1b[0m\n'}
+[5.034869] (-) TimerEvent: {}
+[5.082595] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.085300] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.085928] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.086113] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.086287] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.086442] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.086571] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.086686] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.086800] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.086913] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.087025] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.087136] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.087248] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.087404] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.087523] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.087635] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.087749] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.087863] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.087976] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.088086] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.088218] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.088331] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.088441] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.088563] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.088686] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.088805] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.088924] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.089184] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.089301] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.089413] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.089523] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.089699] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.089838] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.089953] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.090065] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.090176] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.090287] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.090398] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.090509] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.090620] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.090731] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.090859] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.090971] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.091082] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.091191] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.091302] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.091412] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.091523] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.091633] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.091845] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.091961] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.092086] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.092197] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.092309] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.092420] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.092531] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.092641] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.092751] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.092861] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.093048] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.093172] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.093302] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.093418] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.093538] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.093657] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.093777] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.093896] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.094006] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.094116] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.094226] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.094482] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.095095] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.095282] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.095399] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.095512] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.095624] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.095736] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.095850] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.095963] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.096075] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.096188] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.096481] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.096924] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.097486] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.097559] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.097626] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.097692] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.097755] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.097817] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.097878] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.097940] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.098018] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.098081] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.098151] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.098213] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.098274] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.098335] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.098395] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.098461] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.098523] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.098582] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.098642] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.098702] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.098762] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.098823] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.098883] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.098944] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.099005] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.099065] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.099126] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.099187] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.099272] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.099334] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.099395] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.099456] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.099515] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.099583] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.099644] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.099718] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.099785] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.099845] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.099915] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.099976] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.100037] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.100098] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.100158] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.100224] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.100287] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.100348] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.100408] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.100469] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.100529] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.100590] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.100650] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.100711] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.100771] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.100830] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.100890] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.100958] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.101019] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.101079] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.101146] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.101209] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.101270] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.101331] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.101392] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.101452] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.101511] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.101572] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.101632] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.101693] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.101760] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.101821] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.101881] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.101947] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.102008] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.102069] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.102129] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.102190] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.102251] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.102319] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.102380] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.102442] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.102502] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.102562] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.102622] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.102682] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.102741] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.102801] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.102861] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.102921] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.102989] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.103067] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.103133] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.103196] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.103256] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.103316] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.103375] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.103437] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.103497] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.103557] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.103625] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.103696] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.103763] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.103825] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.103885] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.103947] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.104007] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.104067] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.104127] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.104192] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.104252] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.104313] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.104373] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.104434] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.104494] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a(usb_class.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[5.104554] (dm_main) StderrLine: {'line': b'/usr/bin/ld: /home/orangepi/dm_joint_control/src/DM_USB_to_canfd/lib/libu2canfd.a: error adding symbols: file in wrong format\n'}
+[5.104617] (dm_main) StderrLine: {'line': b'collect2: error: ld returned 1 exit status\n'}
+[5.104680] (dm_main) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/dm_main.dir/build.make:99: dm_main] Error 1\n'}
+[5.104742] (dm_main) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:113: CMakeFiles/dm_main.dir/all] Error 2\n'}
+[5.104805] (dm_main) StderrLine: {'line': b'gmake: *** [Makefile:91: all] Error 2\n'}
+[5.104868] (dm_main) CommandEnded: {'returncode': 2}
+[5.105538] (dm_main) JobEnded: {'identifier': 'dm_main', 'rc': 2}
+[5.135018] (-) TimerEvent: {}
+[5.235727] (-) TimerEvent: {}
+[5.336416] (-) TimerEvent: {}
+[5.437085] (-) TimerEvent: {}
+[5.537726] (-) TimerEvent: {}
+[5.638360] (-) TimerEvent: {}
+[5.738957] (-) TimerEvent: {}
+[5.839560] (-) TimerEvent: {}
+[5.940195] (-) TimerEvent: {}
+[6.040795] (-) TimerEvent: {}
+[6.141390] (-) TimerEvent: {}
+[6.241978] (-) TimerEvent: {}
+[6.342561] (-) TimerEvent: {}
+[6.443177] (-) TimerEvent: {}
+[6.543799] (-) TimerEvent: {}
+[6.644372] (-) TimerEvent: {}
+[6.744945] (-) TimerEvent: {}
+[6.845543] (-) TimerEvent: {}
+[6.946121] (-) TimerEvent: {}
+[7.046724] (-) TimerEvent: {}
+[7.147310] (-) TimerEvent: {}
+[7.247890] (-) TimerEvent: {}
+[7.348457] (-) TimerEvent: {}
+[7.449025] (-) TimerEvent: {}
+[7.549584] (-) TimerEvent: {}
+[7.650174] (-) TimerEvent: {}
+[7.750770] (-) TimerEvent: {}
+[7.851349] (-) TimerEvent: {}
+[7.951964] (-) TimerEvent: {}
+[8.052597] (-) TimerEvent: {}
+[8.153219] (-) TimerEvent: {}
+[8.253845] (-) TimerEvent: {}
+[8.269819] (turret) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/orangepi/dm_joint_control/src/turret/include/damiao.h:4\x1b[m\x1b[K,\n'}
+[8.270574] (turret) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/orangepi/dm_joint_control/src/turret/src/dm_motor_run.cpp:2\x1b[m\x1b[K:\n'}
+[8.270746] (turret) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orangepi/dm_joint_control/src/turret/include/SerialPort.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid SerialPort::recv(uint8_t*, uint8_t, ssize_t)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.270842] (turret) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orangepi/dm_joint_control/src/turret/include/SerialPort.h:82:30:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kstd::queue<unsigned char>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kssize_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.270956] (turret) StderrLine: {'line': b'   82 |     while (\x1b[01;35m\x1b[Krecv_queue.size() >= len\x1b[m\x1b[K)\n'}
+[8.271034] (turret) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[8.271101] (turret) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orangepi/dm_joint_control/src/turret/include/SerialPort.h:92:26:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kstd::queue<unsigned char>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kssize_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.271193] (turret) StderrLine: {'line': b'   92 |     if(\x1b[01;35m\x1b[Krecv_queue.size() < len\x1b[m\x1b[K) return;\n'}
+[8.271264] (turret) StderrLine: {'line': b'      |        \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[8.271329] (turret) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orangepi/dm_joint_control/src/turret/include/SerialPort.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid SerialPort::Init(std::string, speed_t)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.271414] (turret) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orangepi/dm_joint_control/src/turret/include/SerialPort.h:111:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kvariable \xe2\x80\x98\x1b[01m\x1b[Kret\x1b[m\x1b[K\xe2\x80\x99 set but not used [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable\x07-Wunused-but-set-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.271490] (turret) StderrLine: {'line': b'  111 |     int \x1b[01;35m\x1b[Kret\x1b[m\x1b[K;\n'}
+[8.271557] (turret) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~\x1b[m\x1b[K\n'}
+[8.344791] (turret) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orangepi/dm_joint_control/src/turret/src/dm_motor_run.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.345232] (turret) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orangepi/dm_joint_control/src/turret/src/dm_motor_run.cpp:40:15:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kq\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.345349] (turret) StderrLine: {'line': b'   40 |         float \x1b[01;35m\x1b[Kq\x1b[m\x1b[K = sin(std::chrono::system_clock::now().time_since_epoch().count() / 1e9);\n'}
+[8.345469] (turret) StderrLine: {'line': b'      |               \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[8.353908] (-) TimerEvent: {}
+[8.454377] (-) TimerEvent: {}
+[8.555009] (-) TimerEvent: {}
+[8.655637] (-) TimerEvent: {}
+[8.756276] (-) TimerEvent: {}
+[8.856934] (-) TimerEvent: {}
+[8.957565] (-) TimerEvent: {}
+[9.058211] (-) TimerEvent: {}
+[9.158847] (-) TimerEvent: {}
+[9.259505] (-) TimerEvent: {}
+[9.360176] (-) TimerEvent: {}
+[9.460789] (-) TimerEvent: {}
+[9.561414] (-) TimerEvent: {}
+[9.662070] (-) TimerEvent: {}
+[9.763097] (-) TimerEvent: {}
+[9.806172] (turret) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable dm_motor_run\x1b[0m\n'}
+[9.863303] (-) TimerEvent: {}
+[9.964469] (-) TimerEvent: {}
+[10.065491] (-) TimerEvent: {}
+[10.166506] (-) TimerEvent: {}
+[10.203207] (turret) StdoutLine: {'line': b'[100%] Built target dm_motor_run\n'}
+[10.232494] (turret) JobEnded: {'identifier': 'turret', 'rc': 'SIGINT'}
+[10.245112] (-) EventReactorShutdown: {}

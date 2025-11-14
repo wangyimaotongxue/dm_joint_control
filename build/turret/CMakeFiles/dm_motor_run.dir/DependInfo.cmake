@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/stick/dm_joint_control/src/turret/src/dm_motor_run.cpp" "CMakeFiles/dm_motor_run.dir/src/dm_motor_run.cpp.o" "gcc" "CMakeFiles/dm_motor_run.dir/src/dm_motor_run.cpp.o.d"
+  "/home/orangepi/dm_joint_control/src/turret/src/dm_motor_run.cpp" "CMakeFiles/dm_motor_run.dir/src/dm_motor_run.cpp.o" "gcc" "CMakeFiles/dm_motor_run.dir/src/dm_motor_run.cpp.o.d"
   )
 
 # Targets to which this target links.

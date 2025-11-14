@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/stick/dm_joint_control/src/u2can
+CMAKE_SOURCE_DIR = /home/orangepi/dm_joint_control/src/u2can
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/stick/dm_joint_control/build/dm_Linux_Drive
+CMAKE_BINARY_DIR = /home/orangepi/dm_joint_control/build/dm_Linux_Drive
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/stick/dm_joint_control/build/dm_Linux_Drive/CMakeFiles /home/stick/dm_joint_control/build/dm_Linux_Drive//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/orangepi/dm_joint_control/build/dm_Linux_Drive/CMakeFiles /home/orangepi/dm_joint_control/build/dm_Linux_Drive//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/stick/dm_joint_control/build/dm_Linux_Drive/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/orangepi/dm_joint_control/build/dm_Linux_Drive/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -117,6 +117,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named dm_motor_rerun
+
+# Build rule for target.
+dm_motor_rerun: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dm_motor_rerun
+.PHONY : dm_motor_rerun
+
+# fast build rule for target.
+dm_motor_rerun/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dm_motor_rerun.dir/build.make CMakeFiles/dm_motor_rerun.dir/build
+.PHONY : dm_motor_rerun/fast
+
+#=============================================================================
 # Target rules for targets named dm_set_zero_position
 
 # Build rule for target.
@@ -141,6 +154,30 @@ test_damiao: cmake_check_build_system
 test_damiao/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_damiao.dir/build.make CMakeFiles/test_damiao.dir/build
 .PHONY : test_damiao/fast
+
+src/dm_motor_rerun.o: src/dm_motor_rerun.cpp.o
+.PHONY : src/dm_motor_rerun.o
+
+# target to build an object file
+src/dm_motor_rerun.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dm_motor_rerun.dir/build.make CMakeFiles/dm_motor_rerun.dir/src/dm_motor_rerun.cpp.o
+.PHONY : src/dm_motor_rerun.cpp.o
+
+src/dm_motor_rerun.i: src/dm_motor_rerun.cpp.i
+.PHONY : src/dm_motor_rerun.i
+
+# target to preprocess a source file
+src/dm_motor_rerun.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dm_motor_rerun.dir/build.make CMakeFiles/dm_motor_rerun.dir/src/dm_motor_rerun.cpp.i
+.PHONY : src/dm_motor_rerun.cpp.i
+
+src/dm_motor_rerun.s: src/dm_motor_rerun.cpp.s
+.PHONY : src/dm_motor_rerun.s
+
+# target to generate assembly for a file
+src/dm_motor_rerun.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dm_motor_rerun.dir/build.make CMakeFiles/dm_motor_rerun.dir/src/dm_motor_rerun.cpp.s
+.PHONY : src/dm_motor_rerun.cpp.s
 
 src/dm_set_zero_position.o: src/dm_set_zero_position.cpp.o
 .PHONY : src/dm_set_zero_position.o
@@ -198,8 +235,12 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... dm_motor_rerun"
 	@echo "... dm_set_zero_position"
 	@echo "... test_damiao"
+	@echo "... src/dm_motor_rerun.o"
+	@echo "... src/dm_motor_rerun.i"
+	@echo "... src/dm_motor_rerun.s"
 	@echo "... src/dm_set_zero_position.o"
 	@echo "... src/dm_set_zero_position.i"
 	@echo "... src/dm_set_zero_position.s"

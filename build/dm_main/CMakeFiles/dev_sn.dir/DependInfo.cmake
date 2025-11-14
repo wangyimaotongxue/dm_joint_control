@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/stick/dm_joint_control/src/DM_USB_to_canfd/src/dev_sn.cpp" "CMakeFiles/dev_sn.dir/src/dev_sn.cpp.o" "gcc" "CMakeFiles/dev_sn.dir/src/dev_sn.cpp.o.d"
+  "/home/orangepi/dm_joint_control/src/DM_USB_to_canfd/src/dev_sn.cpp" "CMakeFiles/dev_sn.dir/src/dev_sn.cpp.o" "gcc" "CMakeFiles/dev_sn.dir/src/dev_sn.cpp.o.d"
   )
 
 # Targets to which this target links.

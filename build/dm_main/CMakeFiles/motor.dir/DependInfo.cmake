@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/stick/dm_joint_control/src/DM_USB_to_canfd/src/protocol/damiao.cpp" "CMakeFiles/motor.dir/src/protocol/damiao.cpp.o" "gcc" "CMakeFiles/motor.dir/src/protocol/damiao.cpp.o.d"
+  "/home/orangepi/dm_joint_control/src/DM_USB_to_canfd/src/protocol/damiao.cpp" "CMakeFiles/motor.dir/src/protocol/damiao.cpp.o" "gcc" "CMakeFiles/motor.dir/src/protocol/damiao.cpp.o.d"
   )
 
 # Targets to which this target links.

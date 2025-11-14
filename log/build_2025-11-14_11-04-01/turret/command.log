@@ -1,0 +1,4 @@
+Invoking command in '/home/orangepi/dm_joint_control/build/turret': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/orangepi/dm_joint_control/build/turret -- -j8 -l8
+Invoked command in '/home/orangepi/dm_joint_control/build/turret' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/orangepi/dm_joint_control/build/turret -- -j8 -l8
+Invoking command in '/home/orangepi/dm_joint_control/build/turret': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/orangepi/dm_joint_control/build/turret
+Invoked command in '/home/orangepi/dm_joint_control/build/turret' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/orangepi/dm_joint_control/build/turret

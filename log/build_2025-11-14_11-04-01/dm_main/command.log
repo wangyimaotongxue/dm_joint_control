@@ -1,0 +1,2 @@
+Invoking command in '/home/orangepi/dm_joint_control/build/dm_main': /usr/bin/cmake --build /home/orangepi/dm_joint_control/build/dm_main -- -j8 -l8
+Invoked command in '/home/orangepi/dm_joint_control/build/dm_main' returned '2': /usr/bin/cmake --build /home/orangepi/dm_joint_control/build/dm_main -- -j8 -l8
