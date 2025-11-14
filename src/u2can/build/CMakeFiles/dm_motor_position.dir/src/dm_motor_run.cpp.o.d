@@ -1,5 +1,5 @@
-CMakeFiles/dm_set_zero_position.dir/src/dm_set_zero_position.cpp.o: \
- /home/orangepi/dm_joint_control/src/u2can/src/dm_set_zero_position.cpp \
+CMakeFiles/dm_motor_position.dir/src/dm_motor_run.cpp.o: \
+ /home/orangepi/dm_joint_control/src/u2can/src/dm_motor_run.cpp \
  /usr/include/stdc-predef.h \
  /home/orangepi/dm_joint_control/src/u2can/include/damiao.h \
  /home/orangepi/dm_joint_control/src/u2can/include/SerialPort.h \

@@ -118,6 +118,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/dm_motor_position.dir/DependInfo.cmake"
   "CMakeFiles/dm_motor_rerun.dir/DependInfo.cmake"
   "CMakeFiles/dm_set_zero_position.dir/DependInfo.cmake"
   "CMakeFiles/test_damiao.dir/DependInfo.cmake"
