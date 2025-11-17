@@ -18,17 +18,33 @@ find_package(std_msgs REQUIRED)
 include_directories(${CMAKE_SOURCE_DIR}/include)
 
 # 创建可执行文件
+add_executable(dm_motor_rerun src/dm_motor_rerun.cpp)
 add_executable(dm_motor_run src/dm_motor_run.cpp)
+add_executable(dm_set_zero_position src/dm_set_zero_position.cpp)
+
 
 # 链接依赖
+ament_target_dependencies(dm_motor_rerun 
+  rclcpp
+  std_msgs
+)
+
 ament_target_dependencies(dm_motor_run 
   rclcpp
   std_msgs
 )
 
+ament_target_dependencies(dm_set_zero_position
+  rclcpp
+  std_msgs
+)
+
+
 # 安装可执行文件
 install(TARGETS
+  dm_motor_rerun
   dm_motor_run
+  dm_set_zero_position
   DESTINATION lib/${PROJECT_NAME}
 )
 

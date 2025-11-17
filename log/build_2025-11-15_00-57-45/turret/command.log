@@ -1,4 +1,0 @@
-Invoking command in '/home/stick/dm_joint_control/build/turret': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/stick/dm_joint_control/build/turret -- -j20 -l20
-Invoked command in '/home/stick/dm_joint_control/build/turret' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/stick/dm_joint_control/build/turret -- -j20 -l20
-Invoking command in '/home/stick/dm_joint_control/build/turret': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/stick/dm_joint_control/build/turret
-Invoked command in '/home/stick/dm_joint_control/build/turret' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/stick/dm_joint_control/build/turret

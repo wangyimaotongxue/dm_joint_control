@@ -1,5 +1,0 @@
-[35m[1mConsolidate compiler generated dependencies of target dm_motor_rerun[0m
-[ 25%] Built target dm_set_zero_position
-[ 37%] [32mBuilding CXX object CMakeFiles/dm_motor_rerun.dir/src/dm_motor_rerun.cpp.o[0m
-[ 62%] Built target dm_motor_position
-[ 87%] Built target test_damiao

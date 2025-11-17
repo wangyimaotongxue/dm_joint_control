@@ -1,4 +1,0 @@
-[0.006s] Invoking command in '/home/stick/dm_joint_control/build/VideoStreamExample': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/stick/dm_joint_control/build/VideoStreamExample -- -j20 -l20
-[0.031s] [35m[1mConsolidate compiler generated dependencies of target video_stream[0m
-[0.039s] [100%] Built target video_stream
-[0.044s] Invoked command in '/home/stick/dm_joint_control/build/VideoStreamExample' returned '0': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/stick/dm_joint_control/build/VideoStreamExample -- -j20 -l20

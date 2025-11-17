@@ -1,8 +1,0 @@
-[01m[K/home/stick/dm_joint_control/src/u2can/src/dm_motor_rerun.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
-[01m[K/home/stick/dm_joint_control/src/u2can/src/dm_motor_rerun.cpp:39:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kposition[m[K’ was not declared in this scope
-   39 |         dm.control_mit(M1, 20, 0.5, [01;31m[Kposition[m[K, 0.0001, 0.1);
-      |                                     [01;31m[K^~~~~~~~[m[K
-gmake[2]: *** [CMakeFiles/dm_motor_rerun.dir/build.make:76: CMakeFiles/dm_motor_rerun.dir/src/dm_motor_rerun.cpp.o] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:115: CMakeFiles/dm_motor_rerun.dir/all] Error 2
-gmake[1]: *** Waiting for unfinished jobs....
-gmake: *** [Makefile:91: all] Error 2
