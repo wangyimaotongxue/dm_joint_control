@@ -10,7 +10,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.22.1/CMakeCCompiler.cmake"
   "CMakeFiles/3.22.1/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.22.1/CMakeSystem.cmake"
-  "/home/orangepi/dm_joint_control/src/u2can/CMakeLists.txt"
+  "/home/stick/dm_joint_control/src/u2can/CMakeLists.txt"
   "/usr/share/cmake-3.22/Modules/CMakeCCompiler.cmake.in"
   "/usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c"
   "/usr/share/cmake-3.22/Modules/CMakeCInformation.cmake"
@@ -118,6 +118,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/dm_motor_position.dir/DependInfo.cmake"
   "CMakeFiles/dm_motor_rerun.dir/DependInfo.cmake"
   "CMakeFiles/dm_set_zero_position.dir/DependInfo.cmake"
   "CMakeFiles/test_damiao.dir/DependInfo.cmake"

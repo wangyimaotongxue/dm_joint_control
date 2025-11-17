@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/orangepi/dm_joint_control/src/u2can
+CMAKE_SOURCE_DIR = /home/stick/dm_joint_control/src/u2can
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/orangepi/dm_joint_control/src/u2can/build
+CMAKE_BINARY_DIR = /home/stick/dm_joint_control/src/u2can/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/orangepi/dm_joint_control/src/u2can/build/CMakeFiles /home/orangepi/dm_joint_control/src/u2can/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/stick/dm_joint_control/src/u2can/build/CMakeFiles /home/stick/dm_joint_control/src/u2can/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/orangepi/dm_joint_control/src/u2can/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/stick/dm_joint_control/src/u2can/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -117,17 +117,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named dm_motor_position
+# Target rules for targets named dm_motor_run
 
 # Build rule for target.
-dm_motor_position: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dm_motor_position
-.PHONY : dm_motor_position
+dm_motor_run: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dm_motor_run
+.PHONY : dm_motor_run
 
 # fast build rule for target.
-dm_motor_position/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dm_motor_position.dir/build.make CMakeFiles/dm_motor_position.dir/build
-.PHONY : dm_motor_position/fast
+dm_motor_run/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dm_motor_run.dir/build.make CMakeFiles/dm_motor_run.dir/build
+.PHONY : dm_motor_run/fast
 
 #=============================================================================
 # Target rules for targets named dm_motor_rerun
@@ -197,7 +197,7 @@ src/dm_motor_run.o: src/dm_motor_run.cpp.o
 
 # target to build an object file
 src/dm_motor_run.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dm_motor_position.dir/build.make CMakeFiles/dm_motor_position.dir/src/dm_motor_run.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dm_motor_run.dir/build.make CMakeFiles/dm_motor_run.dir/src/dm_motor_run.cpp.o
 .PHONY : src/dm_motor_run.cpp.o
 
 src/dm_motor_run.i: src/dm_motor_run.cpp.i
@@ -205,7 +205,7 @@ src/dm_motor_run.i: src/dm_motor_run.cpp.i
 
 # target to preprocess a source file
 src/dm_motor_run.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dm_motor_position.dir/build.make CMakeFiles/dm_motor_position.dir/src/dm_motor_run.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dm_motor_run.dir/build.make CMakeFiles/dm_motor_run.dir/src/dm_motor_run.cpp.i
 .PHONY : src/dm_motor_run.cpp.i
 
 src/dm_motor_run.s: src/dm_motor_run.cpp.s
@@ -213,7 +213,7 @@ src/dm_motor_run.s: src/dm_motor_run.cpp.s
 
 # target to generate assembly for a file
 src/dm_motor_run.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dm_motor_position.dir/build.make CMakeFiles/dm_motor_position.dir/src/dm_motor_run.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dm_motor_run.dir/build.make CMakeFiles/dm_motor_run.dir/src/dm_motor_run.cpp.s
 .PHONY : src/dm_motor_run.cpp.s
 
 src/dm_set_zero_position.o: src/dm_set_zero_position.cpp.o
@@ -272,8 +272,8 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... dm_motor_position"
 	@echo "... dm_motor_rerun"
+	@echo "... dm_motor_run"
 	@echo "... dm_set_zero_position"
 	@echo "... test_damiao"
 	@echo "... src/dm_motor_rerun.o"

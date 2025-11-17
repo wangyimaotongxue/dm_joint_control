@@ -8,13 +8,15 @@ damiao::Motor M2(damiao::DM4310,0x02, 0x00);
 std::shared_ptr<SerialPort> serial;
 damiao::Motor_Control dm(serial);
 
-// // 初始化变量
-//     float position = 0.1f;  // 起始位置
-//     float increment = 0.01f; // 初始增量
-//     bool positive_direction = true; // 运动方向标志
-//     const float max_position = 1.0f; // 最大位置
-//     const float min_increment = 0.01f; // 最小增量
+// 初始化变量
+// float position = 0.1f;  // 起始位置
+// float increment = 0.01f; // 初始增量
+// bool positive_direction = true; // 运动方向标志
+// const float max_position = 1.0f; // 最大位置
+// const float min_increment = 0.01f; // 最小增量
 
+float pos = 0.1f;  // 起始位置
+int cont = 0;
 
 int main(int argc, char  *argv[])
 {
@@ -33,17 +35,29 @@ int main(int argc, char  *argv[])
     sleep(1);
     while(1)
     {
+     
+        //  cont++;
+            
+        //     // 更温和的位置变化
+        //     if (cont >= 10) {  // 每10秒改变一次方向 (100 * 100ms = 10s)
+        //         cont = 0;
+        //         pos *= -1;
+        //         std::cout << "改变方向，新目标位置: " << pos << std::endl;
+        //     }
+
         float q = sin(std::chrono::system_clock::now().time_since_epoch().count() / 1e9);
         // 控制电机转动
-
-        dm.control_mit(M1, 20, 0.5, position, 0.0001, 0.1);
-
+        dm.control_mit(M1, 20, 0.5, pos, 0.1, 1);
+        cont ++;
+        if (cont >=10)
+        {
+            cont = 0;
+            pos *= -1;
+        }
+        
         dm.refresh_motor_status(M1);
         // dm.refresh_motor_status(M2);
         std::cout<<"motor1--- POS:"<<M1.Get_Position()<<" VEL:"<<M1.Get_Velocity()<<" CUR:"<<M1.Get_tau()<<std::endl;
-
-
-
 
         // // 更新下一个目标位置
         // if (positive_direction) {

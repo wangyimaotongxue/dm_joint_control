@@ -1,0 +1,3 @@
+/home/stick/dm_joint_control/build/VideoStreamExample/CMakeFiles/video_stream.dir
+/home/stick/dm_joint_control/build/VideoStreamExample/CMakeFiles/edit_cache.dir
+/home/stick/dm_joint_control/build/VideoStreamExample/CMakeFiles/rebuild_cache.dir

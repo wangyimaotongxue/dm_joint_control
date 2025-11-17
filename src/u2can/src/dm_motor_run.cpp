@@ -35,6 +35,7 @@ int main(int argc, char  *argv[])
   {
     float q = sin(std::chrono::system_clock::now().time_since_epoch().count() / 1e9);
     // 控制电机转动
+
     dm.control_mit(M1, 50, 0.3, 1, 0.01, 0.5);
 
     dm.refresh_motor_status(M1);
@@ -43,8 +44,7 @@ int main(int argc, char  *argv[])
 
     usleep(1000);
 
-    
   }   
-
+  dm.disable(M1);
   return 0;
 }

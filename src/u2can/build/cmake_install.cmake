@@ -1,4 +1,4 @@
-# Install script for directory: /home/orangepi/dm_joint_control/src/u2can
+# Install script for directory: /home/stick/dm_joint_control/src/u2can
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/orangepi/dm_joint_control/src/u2can/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/stick/dm_joint_control/src/u2can/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

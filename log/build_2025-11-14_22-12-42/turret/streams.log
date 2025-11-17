@@ -1,0 +1,42 @@
+[0.008s] Invoking command in '/home/stick/dm_joint_control/build/turret': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/stick/dm_joint_control/build/turret -- -j20 -l20
+[0.036s] [ 50%] [32mBuilding CXX object CMakeFiles/dm_motor_run.dir/src/dm_motor_run.cpp.o[0m
+[1.032s] In file included from [01m[K/home/stick/dm_joint_control/src/turret/include/damiao.h:4[m[K,
+[1.032s]                  from [01m[K/home/stick/dm_joint_control/src/turret/src/dm_motor_run.cpp:2[m[K:
+[1.033s] [01m[K/home/stick/dm_joint_control/src/turret/include/SerialPort.h:[m[K In member function ‘[01m[Kvoid SerialPort::recv(uint8_t*, uint8_t, ssize_t)[m[K’:
+[1.033s] [01m[K/home/stick/dm_joint_control/src/turret/include/SerialPort.h:82:30:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::queue<unsigned char>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kssize_t[m[K’ {aka ‘[01m[Klong int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[1.033s]    82 |     while ([01;35m[Krecv_queue.size() >= len[m[K)
+[1.033s]       |            [01;35m[K~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[1.033s] [01m[K/home/stick/dm_joint_control/src/turret/include/SerialPort.h:92:26:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::queue<unsigned char>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kssize_t[m[K’ {aka ‘[01m[Klong int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[1.033s]    92 |     if([01;35m[Krecv_queue.size() < len[m[K) return;
+[1.033s]       |        [01;35m[K~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[1.033s] [01m[K/home/stick/dm_joint_control/src/turret/include/SerialPort.h:[m[K In member function ‘[01m[Kvoid SerialPort::Init(std::string, speed_t)[m[K’:
+[1.033s] [01m[K/home/stick/dm_joint_control/src/turret/include/SerialPort.h:111:9:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kret[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[1.033s]   111 |     int [01;35m[Kret[m[K;
+[1.033s]       |         [01;35m[K^~~[m[K
+[1.050s] [01m[K/home/stick/dm_joint_control/src/turret/src/dm_motor_run.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.050s] [01m[K/home/stick/dm_joint_control/src/turret/src/dm_motor_run.cpp:40:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kq[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.050s]    40 |         float [01;35m[Kq[m[K = sin(std::chrono::system_clock::now().time_since_epoch().count() / 1e9);
+[1.050s]       |               [01;35m[K^[m[K
+[1.452s] [100%] [32m[1mLinking CXX executable dm_motor_run[0m
+[1.513s] [100%] Built target dm_motor_run
+[1.521s] Invoked command in '/home/stick/dm_joint_control/build/turret' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/stick/dm_joint_control/build/turret -- -j20 -l20
+[1.526s] Invoking command in '/home/stick/dm_joint_control/build/turret': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/stick/dm_joint_control/build/turret
+[1.530s] -- Install configuration: ""
+[1.530s] -- Installing: /home/stick/dm_joint_control/install/turret/lib/turret/dm_motor_run
+[1.530s] -- Set runtime path of "/home/stick/dm_joint_control/install/turret/lib/turret/dm_motor_run" to ""
+[1.530s] -- Installing: /home/stick/dm_joint_control/install/turret/share/ament_index/resource_index/package_run_dependencies/turret
+[1.530s] -- Installing: /home/stick/dm_joint_control/install/turret/share/ament_index/resource_index/parent_prefix_path/turret
+[1.530s] -- Installing: /home/stick/dm_joint_control/install/turret/share/turret/environment/ament_prefix_path.sh
+[1.530s] -- Installing: /home/stick/dm_joint_control/install/turret/share/turret/environment/ament_prefix_path.dsv
+[1.530s] -- Installing: /home/stick/dm_joint_control/install/turret/share/turret/environment/path.sh
+[1.530s] -- Installing: /home/stick/dm_joint_control/install/turret/share/turret/environment/path.dsv
+[1.530s] -- Installing: /home/stick/dm_joint_control/install/turret/share/turret/local_setup.bash
+[1.530s] -- Installing: /home/stick/dm_joint_control/install/turret/share/turret/local_setup.sh
+[1.530s] -- Installing: /home/stick/dm_joint_control/install/turret/share/turret/local_setup.zsh
+[1.531s] -- Installing: /home/stick/dm_joint_control/install/turret/share/turret/local_setup.dsv
+[1.531s] -- Installing: /home/stick/dm_joint_control/install/turret/share/turret/package.dsv
+[1.531s] -- Installing: /home/stick/dm_joint_control/install/turret/share/ament_index/resource_index/packages/turret
+[1.531s] -- Installing: /home/stick/dm_joint_control/install/turret/share/turret/cmake/turretConfig.cmake
+[1.531s] -- Installing: /home/stick/dm_joint_control/install/turret/share/turret/cmake/turretConfig-version.cmake
+[1.531s] -- Installing: /home/stick/dm_joint_control/install/turret/share/turret/package.xml
+[1.532s] Invoked command in '/home/stick/dm_joint_control/build/turret' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/stick/dm_joint_control/build/turret

@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/orangepi/dm_joint_control/src/u2can/src/dm_set_zero_position.cpp" "CMakeFiles/dm_set_zero_position.dir/src/dm_set_zero_position.cpp.o" "gcc" "CMakeFiles/dm_set_zero_position.dir/src/dm_set_zero_position.cpp.o.d"
+  "/home/stick/dm_joint_control/src/u2can/src/dm_set_zero_position.cpp" "CMakeFiles/dm_set_zero_position.dir/src/dm_set_zero_position.cpp.o" "gcc" "CMakeFiles/dm_set_zero_position.dir/src/dm_set_zero_position.cpp.o.d"
   )
 
 # Targets to which this target links.

@@ -1,0 +1,87 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "dm_Linux_Drive",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "dm_motor_position::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dm_motor_position-535be011828668420716.json",
+					"name" : "dm_motor_position",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dm_motor_rerun::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dm_motor_rerun-15303fa05b40a4f872c0.json",
+					"name" : "dm_motor_rerun",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dm_set_zero_position::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dm_set_zero_position-9cd4c8e9ccc61a479e6b.json",
+					"name" : "dm_set_zero_position",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_damiao::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_damiao-2177c628a97267369273.json",
+					"name" : "test_damiao",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/stick/dm_joint_control/build/dm_Linux_Drive",
+		"source" : "/home/stick/dm_joint_control/src/u2can"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

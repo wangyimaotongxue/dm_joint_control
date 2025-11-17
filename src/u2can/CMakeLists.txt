@@ -9,7 +9,7 @@ set(CMAKE_CXX_STANDARD 14)
 #     src/test_damiao.cpp
 # )
 
-add_executable(dm_motor_position src/dm_motor_run.cpp)
+add_executable(dm_motor_run src/dm_motor_run.cpp)
 add_executable(dm_motor_rerun src/dm_motor_rerun.cpp)
 add_executable(dm_set_zero_position src/dm_set_zero_position.cpp)
 add_executable(test_damiao src/test_damiao.cpp)

@@ -1,0 +1,12 @@
+[0.007s] Invoking command in '/home/stick/dm_joint_control/build/dm_Linux_Drive': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/stick/dm_joint_control/build/dm_Linux_Drive -- -j20 -l20
+[0.025s] [35m[1mConsolidate compiler generated dependencies of target test_damiao[0m
+[0.025s] [35m[1mConsolidate compiler generated dependencies of target dm_motor_rerun[0m
+[0.025s] [35m[1mConsolidate compiler generated dependencies of target dm_motor_position[0m
+[0.025s] [35m[1mConsolidate compiler generated dependencies of target dm_set_zero_position[0m
+[0.030s] [ 12%] [32mBuilding CXX object CMakeFiles/dm_motor_rerun.dir/src/dm_motor_rerun.cpp.o[0m
+[0.030s] [ 37%] Built target dm_motor_position
+[0.031s] [ 62%] Built target test_damiao
+[0.033s] [ 87%] Built target dm_set_zero_position
+[0.368s] [100%] [32m[1mLinking CXX executable dm_motor_rerun[0m
+[0.414s] [100%] Built target dm_motor_rerun
+[0.421s] Invoked command in '/home/stick/dm_joint_control/build/dm_Linux_Drive' returned '0': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/stick/dm_joint_control/build/dm_Linux_Drive -- -j20 -l20

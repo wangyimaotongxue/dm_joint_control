@@ -1,0 +1,2 @@
+Invoking command in '/home/stick/dm_joint_control/build/VideoStreamExample': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/stick/dm_joint_control/build/VideoStreamExample -- -j20 -l20
+Invoked command in '/home/stick/dm_joint_control/build/VideoStreamExample' returned '0': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/stick/dm_joint_control/build/VideoStreamExample -- -j20 -l20

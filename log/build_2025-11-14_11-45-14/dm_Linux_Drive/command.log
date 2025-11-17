@@ -1,2 +1,0 @@
-Invoking command in '/home/orangepi/dm_joint_control/build/dm_Linux_Drive': /usr/bin/cmake --build /home/orangepi/dm_joint_control/build/dm_Linux_Drive -- -j8 -l8
-Invoked command in '/home/orangepi/dm_joint_control/build/dm_Linux_Drive' returned '0': /usr/bin/cmake --build /home/orangepi/dm_joint_control/build/dm_Linux_Drive -- -j8 -l8

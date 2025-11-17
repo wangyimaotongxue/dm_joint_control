@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/orangepi/dm_joint_control/src/turret
+CMAKE_SOURCE_DIR = /home/stick/dm_joint_control/src/turret
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/orangepi/dm_joint_control/build/turret
+CMAKE_BINARY_DIR = /home/stick/dm_joint_control/build/turret
 
 # Utility rule file for turret_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/turret_uninstall.dir/compiler_depend.make
 include CMakeFiles/turret_uninstall.dir/progress.make
 
 CMakeFiles/turret_uninstall:
-	/usr/bin/cmake -P /home/orangepi/dm_joint_control/build/turret/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/stick/dm_joint_control/build/turret/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 turret_uninstall: CMakeFiles/turret_uninstall
 turret_uninstall: CMakeFiles/turret_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/turret_uninstall.dir/clean:
 .PHONY : CMakeFiles/turret_uninstall.dir/clean
 
 CMakeFiles/turret_uninstall.dir/depend:
-	cd /home/orangepi/dm_joint_control/build/turret && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/orangepi/dm_joint_control/src/turret /home/orangepi/dm_joint_control/src/turret /home/orangepi/dm_joint_control/build/turret /home/orangepi/dm_joint_control/build/turret /home/orangepi/dm_joint_control/build/turret/CMakeFiles/turret_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/stick/dm_joint_control/build/turret && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/stick/dm_joint_control/src/turret /home/stick/dm_joint_control/src/turret /home/stick/dm_joint_control/build/turret /home/stick/dm_joint_control/build/turret /home/stick/dm_joint_control/build/turret/CMakeFiles/turret_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/turret_uninstall.dir/depend
 

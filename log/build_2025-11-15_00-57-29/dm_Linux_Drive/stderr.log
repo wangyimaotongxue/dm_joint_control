@@ -1,0 +1,6 @@
+[01m[K/home/stick/dm_joint_control/src/u2can/src/dm_motor_rerun.cpp:23:1:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K;[m[K’ before ‘[01m[Kint[m[K’
+   23 | [01;31m[Kint[m[K main(int argc, char  *argv[])
+      | [01;31m[K^~~[m[K
+gmake[2]: *** [CMakeFiles/dm_motor_rerun.dir/build.make:76: CMakeFiles/dm_motor_rerun.dir/src/dm_motor_rerun.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:115: CMakeFiles/dm_motor_rerun.dir/all] Error 2
+gmake: *** [Makefile:91: all] Error 2

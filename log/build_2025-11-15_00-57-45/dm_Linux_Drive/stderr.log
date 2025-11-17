@@ -1,0 +1,8 @@
+[01m[K/home/stick/dm_joint_control/src/u2can/src/dm_motor_rerun.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/stick/dm_joint_control/src/u2can/src/dm_motor_rerun.cpp:40:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kcondition[m[K’ was not declared in this scope; did you mean ‘[01m[Kposition[m[K’?
+   40 |         if ([01;31m[Kcondition[m[K)
+      |             [01;31m[K^~~~~~~~~[m[K
+      |             [32m[Kposition[m[K
+gmake[2]: *** [CMakeFiles/dm_motor_rerun.dir/build.make:76: CMakeFiles/dm_motor_rerun.dir/src/dm_motor_rerun.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:115: CMakeFiles/dm_motor_rerun.dir/all] Error 2
+gmake: *** [Makefile:91: all] Error 2

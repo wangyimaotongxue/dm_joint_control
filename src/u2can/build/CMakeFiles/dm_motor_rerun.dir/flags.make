@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/orangepi/dm_joint_control/src/u2can/include
+CXX_INCLUDES = -I/home/stick/dm_joint_control/src/u2can/include
 
 CXX_FLAGS = -std=gnu++14
 
