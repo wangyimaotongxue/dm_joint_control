@@ -21,7 +21,16 @@ source ./install/setup.bash
 sudo chmod -R 777 /dev/ttyACM0      # 也可以是dev/ttyACM*
 
 # 启动这个测试节点
+# ros2 run turret dm_test_damiao
+# 设置关节零点
+ros2 run turret dm_set_zero_position
+
+# 检查关节
 ros2 run turret dm_motor_run
+
+# 关节转动测试
+ros2 run turret dm_motor_rerun
+
 ```
 
 ### 使用达妙 C++ SDK测试电机
