@@ -1,0 +1,30 @@
+/**:
+  ros__parameters:
+    # 先运行 `ros2 run turret dm_canfd_dev_sn`，再把设备 SN 填到这里。
+    device_sn: ""
+    nominal_baud: 1000000
+    data_baud: 5000000
+    motor_type: "DMH3510"
+    can_id: 1
+    master_id: 17
+
+dm_canfd_motor_run:
+  ros__parameters:
+    # 首次连线保持 false，只读取反馈；确认参数后改为 true 才发送 MIT 指令。
+    command_enabled: false
+    loop_rate_hz: 1000.0
+    kp: 50.0
+    kd: 0.3
+    target_position: 0.0
+    target_velocity: 0.1
+    target_torque: 0.5
+
+dm_canfd_motor_rerun:
+  ros__parameters:
+    loop_rate_hz: 10.0
+    switch_period: 1.0
+    position_amplitude: 1.0
+    kp: 10.0
+    kd: 1.0
+    target_velocity: 0.0
+    target_torque: 0.3

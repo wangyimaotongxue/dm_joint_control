@@ -68,5 +68,6 @@
         "typeindex": "cpp",
         "typeinfo": "cpp",
         "variant": "cpp"
-    }
+    },
+    "cmake.sourceDirectory": "/home/uu/dm_joint_control/src/camera_usb"
 }
